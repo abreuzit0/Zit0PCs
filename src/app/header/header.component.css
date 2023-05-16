@@ -1,0 +1,99 @@
+*:not(i)  {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    margin: 0;
+    text-decoration: none;
+}
+
+.main-header {    
+    display: flex;
+    padding: 10px 0px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 3em;
+}
+
+.main-header__title {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    font-size: 80px;
+    letter-spacing: -1.5px;
+    width: 30%;
+}
+
+.main-header__title h1 {
+    font: 700;
+}
+
+.main-header__title--blue {
+    color: var(--blue);
+    color: #5C90FF;
+    font-size:60px;
+}
+
+.main-header__title--orange {
+    color: var(--orange);
+    color: orange;
+    font-size:60px;
+}
+
+.main-header__menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.main-header__menu li {
+    list-style: none;
+}
+
+.main-header__menu a {
+    position: relative;
+    padding: 10px 10px;
+    color: var(--menu, gray);
+    font-weight: 400;
+    font-size: 22px;
+    text-decoration: none;
+    column-gap: 2em;
+}
+
+
+.main-header__menu a:after {
+    content: "";
+    position: absolute;
+    background-color: #5C90FF;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: 0;
+    transition: 0.4s;  
+}
+
+
+.main-header__menu a:hover {
+    color: var(--menu, #5C90FF);  
+}
+
+.main-header__menu a:hover::after,
+.main-header__menu a.active::after {
+    width: 100%;
+    color: var(--menu, #5C90FF);  
+}
+
+
+.container-menu {
+    display: flex;
+    flex-direction: row;
+    row-gap: 20px;
+    width: 40%;
+}
+
+.badge-carrinho {
+    background-color: var(--carinho, darkblue);
+    padding: 5px 10px;    
+    border-radius: 4px;
+    color: white;
+}
+

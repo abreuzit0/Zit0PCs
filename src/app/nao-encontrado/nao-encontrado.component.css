@@ -1,0 +1,24 @@
+*:not(i) {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    color: #5C90FF;
+}
+
+.container i {
+    font-size: 100px;
+}
+
+.container h2 {
+    font-size: 44px;
+}
+
+.container span {
+    color: orange;
+}

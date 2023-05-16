@@ -1,0 +1,11 @@
+:root {
+    --blue: #5C90FF;
+    --orange: orange;
+    --gray: #f8f8f8;
+}
+
+.container {
+    width: "80%";
+    margin: auto;
+    padding: 20px;
+}
